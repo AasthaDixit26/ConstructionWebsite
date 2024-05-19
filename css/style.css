@@ -6,11 +6,17 @@
     font-weight: 400;
     font-style: normal;
 }
-
 html{
     scroll-behavior: smooth;
 }
+html, body {
+    overflow-x: hidden;
+}
 
+section{
+    width: 100%;
+    height: 100vh;
+}
 
 section nav {
     display: flex;
@@ -68,8 +74,13 @@ section nav .navbar-nav .nav-link:hover::after {
     width: 100%;
 }
 
-section nav .navbar-nav .nav-link:hover {
+section nav .navbar-nav .nav-link i:hover {
     color: #fac031;
+}
+
+
+.navbar-toggler {
+    border: none;
 }
 
 section nav .navbar-nav .nav-icon i {
@@ -240,6 +251,7 @@ section .main_btn i{
 section .main_btn:hover i{
     transform: translateX(7px);
 }
+
 
 
 /*About*/
